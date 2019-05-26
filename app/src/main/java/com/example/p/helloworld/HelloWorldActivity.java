@@ -9,7 +9,6 @@ public class HelloWorldActivity extends AppCompatActivity {
     private static final String TAG = "HelloWorldActivity";
 
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.hello_world_layout);
