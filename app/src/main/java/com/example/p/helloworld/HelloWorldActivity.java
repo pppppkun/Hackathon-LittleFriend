@@ -1,10 +1,10 @@
 package com.example.p.helloworld;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import com.example.p.helloworld.non_activity.BaseActivity;
 
-public class HelloWorldActivity extends AppCompatActivity {
+public class HelloWorldActivity extends BaseActivity {
 
     private static final String TAG = "HelloWorldActivity";
 
